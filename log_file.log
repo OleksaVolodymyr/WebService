@@ -1,0 +1,72 @@
+2017-08-17 12:42:33 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 12:42:33 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 12:42:33 EEST 2017]; root of context hierarchy
+2017-08-17 12:42:33 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 12:42:33 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 12:42:34 INFO  Copter:15 - Create Copter
+2017-08-17 12:42:36 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2733 ms
+2017-08-17 12:53:23 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 12:53:23 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 12:53:23 EEST 2017]; root of context hierarchy
+2017-08-17 12:53:23 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 12:53:23 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 12:53:24 INFO  Copter:15 - Create Copter
+2017-08-17 12:53:26 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2797 ms
+2017-08-17 13:36:03 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 13:36:03 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 13:36:03 EEST 2017]; root of context hierarchy
+2017-08-17 13:36:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 13:36:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 13:36:04 INFO  Copter:16 - Create Copter
+2017-08-17 13:36:06 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2901 ms
+2017-08-17 13:46:20 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 13:46:20 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 13:46:20 EEST 2017]; root of context hierarchy
+2017-08-17 13:46:20 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 13:46:21 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 13:46:21 INFO  Copter:16 - Create Copter
+2017-08-17 13:46:23 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3413 ms
+2017-08-17 14:06:30 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 14:06:30 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 14:06:30 EEST 2017]; root of context hierarchy
+2017-08-17 14:06:30 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 14:06:30 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 14:06:31 INFO  Copter:16 - Create Copter
+2017-08-17 14:06:33 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2715 ms
+2017-08-17 14:49:09 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 14:49:09 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 14:49:09 EEST 2017]; root of context hierarchy
+2017-08-17 14:49:09 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 14:49:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 14:49:10 INFO  Copter:16 - Create Copter
+2017-08-17 14:49:15 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 5916 ms
+2017-08-17 14:51:02 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 14:51:02 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 14:51:02 EEST 2017]; root of context hierarchy
+2017-08-17 14:51:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 14:51:03 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 14:51:03 INFO  Copter:16 - Create Copter
+2017-08-17 14:51:05 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2732 ms
+2017-08-17 14:55:24 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-17 14:55:24 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Thu Aug 17 14:55:24 EEST 2017]; root of context hierarchy
+2017-08-17 14:55:24 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-17 14:55:24 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-17 14:55:25 INFO  Copter:16 - Create Copter
+2017-08-17 14:55:26 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2817 ms
+2017-08-20 13:51:47 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-20 13:51:47 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sun Aug 20 13:51:47 EEST 2017]; root of context hierarchy
+2017-08-20 13:51:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-20 13:51:47 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-20 13:51:48 INFO  Copter:15 - Create Copter
+2017-08-20 13:51:49 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2568 ms
+2017-08-20 13:58:08 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-20 13:58:08 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sun Aug 20 13:58:08 EEST 2017]; root of context hierarchy
+2017-08-20 13:58:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-20 13:58:08 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-20 13:58:09 INFO  Copter:15 - Create Copter
+2017-08-20 13:58:10 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2855 ms
+2017-08-20 13:59:50 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-20 13:59:50 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sun Aug 20 13:59:50 EEST 2017]; root of context hierarchy
+2017-08-20 13:59:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-20 13:59:51 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-20 13:59:51 INFO  Copter:15 - Create Copter
+2017-08-20 13:59:53 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2772 ms
+2017-08-20 14:01:15 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-20 14:01:16 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Sun Aug 20 14:01:16 EEST 2017]; root of context hierarchy
+2017-08-20 14:01:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-20 14:01:16 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-20 14:01:17 INFO  Copter:15 - Create Copter
+2017-08-20 14:01:18 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2598 ms

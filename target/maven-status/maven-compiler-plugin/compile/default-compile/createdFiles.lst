@@ -1,0 +1,6 @@
+com\epam\lab\service\CopterRemoteControllerImp.class
+com\epam\lab\webmodel\Response.class
+com\epam\lab\webmodel\Message.class
+com\epam\lab\model\Copter.class
+com\epam\lab\dao\CopterDAO.class
+com\epam\lab\service\CopterRemoteController.class
