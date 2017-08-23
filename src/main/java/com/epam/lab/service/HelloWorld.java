@@ -1,28 +1,43 @@
 package com.epam.lab.service;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+
+import com.epam.lab.model.Copter;
+import com.epam.lab.response.ResponseCreator;
+
+import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.HttpHeaders;
+import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/hello")
+@Path("/CopterControlService")
 public class HelloWorld {
+    private CopterDAO copterDAO = new CopterDAO();
+    @Context
+    private HttpHeaders requestHeaders;
+
+    private String getHeaderVersion() {
+        return requestHeaders.getRequestHeader("version").get(0);
+    }
 
     @GET
-    @Path("echo/{input}")
-    public Response ping(@PathParam("input") String input) {
-        return Response.status(200).entity(input).build();
+    @Produces("application/json")
+    @Path("/moveUp")
+    public Response moveUp() {
+        if(copterDAO.moveUp()!=null) {
+            return ResponseCreator.succses("test", copterDAO.getCopter());
+        }
+        return Response.status(404).entity("fail").build();
+    }
+    @GET
+    @Produces("application/json")
+    @Path("/moveDown")
+    public Response moveDown() {
+        if(copterDAO.moveDown()!=null) {
+            return ResponseCreator.succses("test", copterDAO.getCopter());
+        }
+        return Response.status(404).entity("fail").build();
     }
 
-    @POST
-    @Produces("application/json")
-    @Consumes("application/json")
-    @Path("/jsonBean")
-    public Response modifyJson(JsonBean input) {
-        input.setVal2(input.getVal1());
-        return Response.ok().entity(input).build();
-    }
+
 }
 

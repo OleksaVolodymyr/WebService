@@ -16,7 +16,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class HelloWorldIT {
-    private static String endpointUrl;
+    /*private static String endpointUrl;
 
     @BeforeClass
     public static void beforeClass() {
@@ -47,5 +47,5 @@ public class HelloWorldIT {
         JsonParser parser = factory.createJsonParser((InputStream)r.getEntity());
         JsonBean output = parser.readValueAs(JsonBean.class);
         assertEquals("Maple", output.getVal2());
-    }
+    }*/
 }

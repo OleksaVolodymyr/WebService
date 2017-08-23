@@ -9,6 +9,7 @@
     <description>CopterRemoteControll SOAP Service</description>
     <properties>
         <jackson.version>1.8.6</jackson.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
         <dependency>
