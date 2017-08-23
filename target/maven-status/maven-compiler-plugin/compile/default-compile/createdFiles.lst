@@ -1,3 +1,8 @@
-com\epam\lab\BookShealServiceImp.class
-com\epam\lab\Book.class
-com\epam\lab\BookShealService.class
+com\epam\lab\webmodel\Response.class
+com\epam\lab\service\Copter.class
+com\epam\lab\service\Response.class
+com\epam\lab\model\Copter.class
+com\epam\lab\service\ObjectFactory.class
+com\epam\lab\service\CopterRemoteController.class
+com\epam\lab\service\CopterRemoteControllerImpService.class
+com\epam\lab\service\package-info.class
