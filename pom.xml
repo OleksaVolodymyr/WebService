@@ -7,6 +7,11 @@
     <packaging>war</packaging>
     <name>CopterRemoteControll</name>
     <description>CopterRemoteControll SOAP Service</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.cxf</groupId>

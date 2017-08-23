@@ -20,4 +20,6 @@ public interface CopterRemoteController {
     public Response moveBack();
     @WebMethod
     public Response stop();
+    @WebMethod
+    public Response getCurrentPosition();
 }

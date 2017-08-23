@@ -1,0 +1,15 @@
+2017-08-23 17:14:58 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-23 17:14:58 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Wed Aug 23 17:14:58 EEST 2017]; root of context hierarchy
+2017-08-23 17:14:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-23 17:14:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-23 17:14:59 INFO  CopterRemoteControllerImp:16 - Create new copter
+2017-08-23 17:14:59 INFO  Copter:15 - Create Copter
+2017-08-23 17:15:01 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 2576 ms
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:69 - Current copter position: Copter{height=0, distance=0}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=15}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=30}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=45}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=60}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=75}
+2017-08-23 17:16:53 INFO  CopterRemoteControllerImp:43 - Copter move forward, position: Copter{height=0, distance=90}
+2017-08-23 17:16:53 ERROR CopterRemoteControllerImp:46 - It is impossible to distance from the starting point more than 100 meters, current distance 90
