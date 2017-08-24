@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://service.lab.epam.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="CopterRemoteControllerImpService" targetNamespace="http://service.lab.epam.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://service.lab.epam.com/" targetNamespace="http://service.lab.epam.com/" version="1.0">
+
+  <xs:element name="Copter" type="tns:copter"/>
+
+  <xs:complexType name="response">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+      <xs:element ref="tns:Copter"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="copter">
+    <xs:sequence>
+      <xs:element name="distance" type="xs:int"/>
+      <xs:element name="height" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="moveBack">
+  </wsdl:message>
+  <wsdl:message name="moveDownResponse">
+    <wsdl:part name="return" type="tns:response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="stop">
+  </wsdl:message>
+  <wsdl:message name="moveForward">
+  </wsdl:message>
+  <wsdl:message name="moveForwardResponse">
+    <wsdl:part name="return" type="tns:response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="moveUp">
+  </wsdl:message>
+  <wsdl:message name="moveUpResponse">
+    <wsdl:part name="return" type="tns:response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="moveDown">
+  </wsdl:message>
+  <wsdl:message name="moveBackResponse">
+    <wsdl:part name="return" type="tns:response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="stopResponse">
+    <wsdl:part name="return" type="tns:response">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CopterRemoteController">
+    <wsdl:operation name="moveUp">
+      <wsdl:input message="tns:moveUp" name="moveUp">
+    </wsdl:input>
+      <wsdl:output message="tns:moveUpResponse" name="moveUpResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveBack">
+      <wsdl:input message="tns:moveBack" name="moveBack">
+    </wsdl:input>
+      <wsdl:output message="tns:moveBackResponse" name="moveBackResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveDown">
+      <wsdl:input message="tns:moveDown" name="moveDown">
+    </wsdl:input>
+      <wsdl:output message="tns:moveDownResponse" name="moveDownResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="stop">
+      <wsdl:input message="tns:stop" name="stop">
+    </wsdl:input>
+      <wsdl:output message="tns:stopResponse" name="stopResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveForward">
+      <wsdl:input message="tns:moveForward" name="moveForward">
+    </wsdl:input>
+      <wsdl:output message="tns:moveForwardResponse" name="moveForwardResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CopterRemoteControllerImpServiceSoapBinding" type="tns:CopterRemoteController">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="moveUp">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="moveUp">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="moveUpResponse">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveBack">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="moveBack">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="moveBackResponse">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveDown">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="moveDown">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="moveDownResponse">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="stop">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="stop">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="stopResponse">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="moveForward">
+      <soap:operation soapAction="" style="rpc"/>
+      <wsdl:input name="moveForward">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="moveForwardResponse">
+        <soap:body namespace="http://service.lab.epam.com/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CopterRemoteControllerImpService">
+    <wsdl:port binding="tns:CopterRemoteControllerImpServiceSoapBinding" name="CopterRemoteControllerImpPort">
+      <soap:address location="http://localhost:8080/RemoteControll/CopterRemoteControll"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
