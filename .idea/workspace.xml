@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c787161e-556c-48a3-8e74-9ac422d5cc40" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/epam/lab/service/HelloWorldIT.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/lab/response/ResponseCreator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/lab/service/CopterDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/lab/service/HelloWorld.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebServise.war" afterPath="$PROJECT_DIR$/target/WebServise.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebServise/WEB-INF/classes/com/epam/lab/model/Copter.class" afterPath="$PROJECT_DIR$/target/WebServise/WEB-INF/classes/com/epam/lab/model/Copter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebServise/WEB-INF/classes/com/epam/lab/response/ResponseCreator.class" afterPath="$PROJECT_DIR$/target/WebServise/WEB-INF/classes/com/epam/lab/response/ResponseCreator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/lab/model/Copter.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/lab/model/Copter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/VolodymyrOleksaRESTSevice_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/VolodymyrOleksaRESTSevice_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VolodymyrOleksaRESTSevice.iml" afterPath="$PROJECT_DIR$/VolodymyrOleksaRESTSevice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/model/Copter.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/model/Copter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/WebServise/WEB-INF/beans.xml" afterPath="$PROJECT_DIR$/target/WebServise/WEB-INF/beans.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/response/ResponseCreator.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/webmodel/ResponseCreator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/service/CopterDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/dao/CopterDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/lab/service/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/lab/service/CopterControlService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+              <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -1138,8 +1116,16 @@
       <workItem from="1503236731337" duration="2881000" />
       <workItem from="1503498250366" duration="5075000" />
       <workItem from="1503515170637" duration="788000" />
-      <workItem from="1503558090478" duration="4370000" />
+      <workItem from="1503558090478" duration="4445000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1503562547822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1503562547822</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1151,7 +1137,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13114000" />
+    <option name="totallyTimeSpent" value="13189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -1195,6 +1181,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1405,7 +1395,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+          <caret line="24" column="10" lean-forward="false" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
           <folding />
         </state>
       </provider>
