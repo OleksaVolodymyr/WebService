@@ -1,5 +1,7 @@
 package com.epam.lab.restClient;
 
+import com.epam.lab.factory.ClientSelector;
+import com.epam.lab.factory.ClientType;
 import com.epam.lab.factory.CopterRemoteController;
 import com.epam.lab.listener.CustomTestListener;
 import com.epam.lab.webmodel.Response;
@@ -17,7 +19,7 @@ public class RESTClientTest {
 
     @BeforeClass
     public void setUp() {
-        restClient = new RESTClient();
+        restClient = ClientSelector.getClient(ClientType.REST_CLIENT);
     }
 
     @BeforeMethod

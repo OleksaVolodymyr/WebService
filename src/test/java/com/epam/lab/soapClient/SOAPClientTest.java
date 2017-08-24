@@ -1,8 +1,9 @@
 package com.epam.lab.soapClient;
 
+import com.epam.lab.factory.ClientSelector;
+import com.epam.lab.factory.ClientType;
 import com.epam.lab.factory.CopterRemoteController;
 import com.epam.lab.listener.CustomTestListener;
-import com.epam.lab.soapClient.service.CopterRemoteControllerImpService;
 import com.epam.lab.webmodel.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -18,13 +19,14 @@ public class SOAPClientTest {
 
     @BeforeClass
     public void setUp() {
-        soapClient = new CopterRemoteControllerImpService().getCopterRemoteControllerImpPort();
+        soapClient = ClientSelector.getClient(ClientType.SOAP_CLIENT);
     }
 
     @BeforeMethod
     public void beforeTest() {
         res = soapClient.getCurrentPosition();
     }
+
     @Test
     public void moveUpTest() {
         Response response = soapClient.moveUp();
@@ -33,6 +35,7 @@ public class SOAPClientTest {
         Assert.assertEquals(response.getMessage(), "Copter move up");
         Assert.assertEquals(response.getCopter().getHeight(), res.getCopter().getHeight() + CHANGE_DISTANCE);
     }
+
     @Test
     public void moveForwardTest() {
         Response response = soapClient.moveForward();
