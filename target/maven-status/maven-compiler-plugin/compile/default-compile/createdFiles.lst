@@ -1,4 +1,7 @@
-com\epam\lab\service\CopterDAO.class
-com\epam\lab\response\ResponseCreator.class
-com\epam\lab\service\HelloWorld.class
+com\epam\lab\service\CopterControlService.class
+com\epam\lab\webmodel\Body.class
+com\epam\lab\webmodel\Message.class
 com\epam\lab\model\Copter.class
+com\epam\lab\dao\CopterDAO.class
+com\epam\lab\webmodel\ResponseCreator.class
+com\epam\lab\service\CopterRemoteController.class

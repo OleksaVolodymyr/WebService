@@ -17,7 +17,7 @@
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.1.12" />
           <element id="library" level="project" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.1.12" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.6" />
-          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.8.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-jaxrs:1.8.6" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.9.RELEASE" />

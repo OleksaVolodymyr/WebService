@@ -6,12 +6,10 @@ import java.io.Serializable;
 
 @XmlRootElement(name = "copter")
 public class Copter implements Serializable {
-    //private static final Logger LOG = Logger.getLogger(Copter.class);
     private int height;
     private int distance;
 
     public Copter() {
-        //LOG.info("Create Copter");
         this.height = 0;
         this.distance = 0;
 

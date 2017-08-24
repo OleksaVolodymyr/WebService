@@ -7,10 +7,14 @@
     <bean class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer"/>
     <jaxrs:server id="services" address="/">
         <jaxrs:serviceBeans>
-            <bean class="com.epam.lab.service.HelloWorld"/>
+            <bean class="com.epam.lab.service.CopterControlService"/>
+
         </jaxrs:serviceBeans>
         <jaxrs:providers>
-            <bean class="org.codehaus.jackson.jaxrs.JacksonJaxbJsonProvider"/>
+            <bean class="org.codehaus.jackson.jaxrs.JacksonJsonProvider">
+                <property name="mapper" ref="jacksonMapper" />
+            </bean>
         </jaxrs:providers>
     </jaxrs:server>
+    <bean id="jacksonMapper" class="org.codehaus.jackson.map.ObjectMapper" />
 </beans>
