@@ -27,7 +27,7 @@ import javax.xml.namespace.QName;
 @XmlRegistry
 public class ObjectFactory {
 
-    private final static QName _Copter_QNAME = new QName("http://service.lab.epam.com/", "Copter");
+    private final static QName _Copter_QNAME = new QName("http://service.soapService.lab.epam.com/", "Copter");
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: com.epam.lab.soapClient.service
@@ -56,7 +56,7 @@ public class ObjectFactory {
      * Create an instance of {@link JAXBElement }{@code <}{@link Copter }{@code >}}
      * 
      */
-    @XmlElementDecl(namespace = "http://service.lab.epam.com/", name = "Copter")
+    @XmlElementDecl(namespace = "http://service.soapService.lab.epam.com/", name = "Copter")
     public JAXBElement<Copter> createCopter(Copter value) {
         return new JAXBElement<Copter>(_Copter_QNAME, Copter.class, null, value);
     }

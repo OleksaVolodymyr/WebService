@@ -66,6 +66,7 @@ public class SOAPClientTest {
     @Test
     public void stopTest() {
         Response response = soapClient.stop();
+        System.out.println(response);
         Assert.assertNotNull(response);
         Assert.assertNotNull(response.getCopter());
         Assert.assertEquals(response.getMessage(), "Copter hovering");

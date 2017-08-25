@@ -1,3 +1,4 @@
-D:\github\VolodymyrOleksaSOAPClient\src\test\java\com\epam\lab\soapClient\SOAPClientTest.java
-D:\github\VolodymyrOleksaSOAPClient\src\test\java\com\epam\lab\listener\CustomTestListener.java
-D:\github\VolodymyrOleksaSOAPClient\src\test\java\com\epam\lab\restClient\RESTClientTest.java
+D:\github\VolodymyrOleksaClient\src\test\java\com\epam\lab\restClient\RESTClientTest.java
+D:\github\VolodymyrOleksaClient\src\test\java\com\epam\lab\soapClient\SOAPClientTest.java
+D:\github\VolodymyrOleksaClient\src\test\java\com\epam\lab\listener\CustomTestListener.java
+D:\github\VolodymyrOleksaClient\src\test\java\com\epam\lab\appender\TestNGReportAppender.java

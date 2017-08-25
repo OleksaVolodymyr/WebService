@@ -107,7 +107,6 @@ public class RESTClientTest {
         Assert.assertEquals(responseForward.getMessage(), String
                 .format("It is impossible to distance from the starting point more than 100 meters, current distance %s", restClient
                         .getCurrentPosition().getCopter().getDistance()));
-
     }
 
     @Test

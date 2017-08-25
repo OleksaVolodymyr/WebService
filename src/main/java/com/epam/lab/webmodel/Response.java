@@ -37,7 +37,7 @@ import javax.xml.bind.annotation.XmlType;
 public class Response {
 
     protected String message;
-    @XmlElement(name = "Copter", namespace = "http://service.lab.epam.com/", required = true)
+    @XmlElement(namespace = "http://service.soapService.lab.epam.com/", required = true)
     protected Copter copter;
 
     /**

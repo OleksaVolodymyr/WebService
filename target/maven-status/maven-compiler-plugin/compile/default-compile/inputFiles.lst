@@ -1,8 +1,9 @@
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\appender\TestNGReportAppender.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\restClient\RESTClient.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\soapClient\service\CopterRemoteControllerImpService.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\soapClient\service\ObjectFactory.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\soapClient\service\package-info.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\webmodel\Response.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\model\Copter.java
-D:\github\VolodymyrOleksaSOAPClient\src\main\java\com\epam\lab\factory\CopterRemoteController.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\soapClient\service\CopterRemoteControllerImpService.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\webmodel\Response.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\model\Copter.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\restClient\RESTClient.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\factory\ClientSelector.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\factory\ClientType.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\soapClient\service\ObjectFactory.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\soapClient\service\package-info.java
+D:\github\VolodymyrOleksaClient\src\main\java\com\epam\lab\factory\CopterRemoteController.java

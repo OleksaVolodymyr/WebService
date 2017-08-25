@@ -12,12 +12,12 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class RESTClient implements CopterRemoteController {
-    public static final String MOVE_UP_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/moveUp";
-    public static final String MOVE_DOWN_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/moveDown";
-    public static final String MOVE_FORWARD_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/moveForward";
-    public static final String MOVE_BACK_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/moveBack";
-    public static final String STOP_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/stop";
-    public static final String GET_POSITION_URL = "http://localhost:8080/VolodymyrOleksaRESTSevice/CopterControlService/getCurrentPosition";
+    public static final String MOVE_UP_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/moveUp";
+    public static final String MOVE_DOWN_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/moveDown";
+    public static final String MOVE_FORWARD_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/moveForward";
+    public static final String MOVE_BACK_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/moveBack";
+    public static final String STOP_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/stop";
+    public static final String GET_POSITION_URL = "http://localhost:8080/RemoteControll/CopterControlServiceImp/getCurrentPosition";
 
 
     @Override
