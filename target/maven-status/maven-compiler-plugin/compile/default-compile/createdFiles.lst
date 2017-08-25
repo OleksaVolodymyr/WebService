@@ -1,0 +1,11 @@
+com\epam\lab\soapService\webmodel\Message.class
+com\epam\lab\restService\webmodel\Message.class
+com\epam\lab\restService\webmodel\Body.class
+com\epam\lab\soapService\webmodel\Response.class
+com\epam\lab\model\Copter.class
+com\epam\lab\restService\service\CopterControlServiceImp.class
+com\epam\lab\restService\webmodel\ResponseCreator.class
+com\epam\lab\soapService\service\CopterRemoteControllerImp.class
+com\epam\lab\dao\CopterDAO.class
+com\epam\lab\restService\service\CopterRemoteController.class
+com\epam\lab\soapService\service\CopterRemoteController.class
