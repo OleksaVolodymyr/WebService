@@ -15831,3 +15831,816 @@ java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refr
 2017-08-25 22:19:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
 2017-08-25 22:19:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
 2017-08-25 22:19:46 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 22:42:13 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 22:42:13 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 22:42:13 EEST 2017]; root of context hierarchy
+2017-08-25 22:42:13 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 22:42:13 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:42:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 22:42:14 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:42:14 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:42:14 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:42:14 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:42:14 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:42:14 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 22:42:15 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 22:42:16 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 22:42:17 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3626 ms
+2017-08-25 22:42:44 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=0}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-15}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-30}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-45}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-60}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-75}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-90}
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:42:46 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:42:46 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:42:47 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 22:44:52 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=60}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=45}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=30}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=15}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=0}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-15}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-30}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-45}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-60}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-75}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-90}
+2017-08-25 22:44:53 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:44:53 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=60, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=45, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=30, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=15, distance=-90}
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=0, distance=-90}
+2017-08-25 22:44:53 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:44:53 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:44:53 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 22:44:54 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:44:54 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:44:54 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:44:54 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:44:54 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 22:46:39 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 22:46:39 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 22:46:39 EEST 2017]; root of context hierarchy
+2017-08-25 22:46:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 22:46:39 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:46:40 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 22:46:40 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:46:40 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:46:40 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:46:40 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:46:40 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:46:40 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 22:46:40 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 22:46:42 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 22:46:42 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3545 ms
+2017-08-25 22:47:23 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=0}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-15}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-30}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-45}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-60}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-90}
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:47:24 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:47:24 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 22:49:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=60}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=45}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=30}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=15}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=0}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-15}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-30}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-45}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-60}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-90}
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=60, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=45, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=30, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=15, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=0, distance=-90}
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:49:23 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 22:49:23 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 22:50:40 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:52:16 INFO  XmlWebApplicationContext:869 - Closing Root WebApplicationContext: startup date [Fri Aug 25 22:46:39 EEST 2017]; root of context hierarchy
+2017-08-25 22:52:35 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 22:52:35 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 22:52:35 EEST 2017]; root of context hierarchy
+2017-08-25 22:52:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 22:52:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:52:36 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 22:52:36 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 22:52:36 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:52:36 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:52:36 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:52:36 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 22:52:36 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 22:52:37 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 22:52:38 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 22:52:38 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3701 ms
+2017-08-25 22:52:50 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:54:06 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 22:54:16 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=0}
+2017-08-25 22:58:58 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=0}
+2017-08-25 22:59:15 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=0}
+2017-08-25 23:02:42 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 23:02:42 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 23:02:42 EEST 2017]; root of context hierarchy
+2017-08-25 23:02:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 23:02:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:02:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 23:02:42 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:02:42 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:02:42 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:02:42 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:02:42 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:02:43 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 23:02:43 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 23:02:44 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 23:02:45 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3499 ms
+2017-08-25 23:02:57 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=0}
+2017-08-25 23:03:00 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=0}
+2017-08-25 23:05:15 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=0}
+2017-08-25 23:05:15 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=0}
+2017-08-25 23:05:15 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=0}
+2017-08-25 23:05:56 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=45, distance=0}
+2017-08-25 23:05:56 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=45, distance=0}
+2017-08-25 23:05:56 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=60, distance=0}
+2017-08-25 23:06:42 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=60, distance=0}
+2017-08-25 23:06:43 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=60, distance=0}
+2017-08-25 23:06:43 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=75, distance=0}
+2017-08-25 23:07:14 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=0}
+2017-08-25 23:13:06 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 23:13:06 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 23:13:06 EEST 2017]; root of context hierarchy
+2017-08-25 23:13:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 23:13:06 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:13:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 23:13:07 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:13:07 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:13:07 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:13:07 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:13:07 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:13:07 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 23:13:08 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 23:13:09 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 23:13:09 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3549 ms
+2017-08-25 23:13:37 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=0}
+2017-08-25 23:13:51 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=0}
+2017-08-25 23:13:52 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=0}
+2017-08-25 23:13:52 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=0}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=0}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=0}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-15}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-30}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-45}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-60}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=30, distance=-90}
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=30, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=15, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=0, distance=-90}
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-60}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-45}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-30}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-15}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=0}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=15}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=30}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=45}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=60}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=90}
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=60, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=75, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:14:13 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=75, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=75, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:14:13 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:14:14 INFO  CopterControlServiceImp:81 - Copter hoveringCopter{height=90, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=0}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-15}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-30}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-45}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-60}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-90}
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:14:15 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:14:15 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 23:16:53 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 23:16:53 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 23:16:53 EEST 2017]; root of context hierarchy
+2017-08-25 23:16:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 23:16:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:16:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 23:16:54 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:16:54 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:16:54 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:16:54 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:16:54 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:16:54 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 23:16:54 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 23:16:55 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 23:16:56 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3197 ms
+2017-08-25 23:17:05 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=0}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=0}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=0}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-15}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-30}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-45}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-60}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-75}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=15, distance=-90}
+2017-08-25 23:17:21 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:17:21 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=15, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=0, distance=-90}
+2017-08-25 23:17:21 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:17:21 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-75}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-60}
+2017-08-25 23:17:21 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-45}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-30}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-15}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=0}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=15}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=30}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=45}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=60}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=90}
+2017-08-25 23:17:22 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:17:22 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=60, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=75, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:17:22 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:17:22 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=75, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=75, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:17:22 INFO  CopterControlServiceImp:81 - Copter hoveringCopter{height=90, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=0}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-15}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-30}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-45}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-60}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-90}
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:17:23 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:17:23 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 23:18:27 INFO  ContextLoader:285 - Root WebApplicationContext: initialization started
+2017-08-25 23:18:27 INFO  XmlWebApplicationContext:514 - Refreshing Root WebApplicationContext: startup date [Fri Aug 25 23:18:27 EEST 2017]; root of context hierarchy
+2017-08-25 23:18:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/soapBeans.xml]
+2017-08-25 23:18:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:18:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/beans.xml]
+2017-08-25 23:18:28 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-08-25 23:18:28 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'cxf': replacing [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.SpringBus]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=shutdown; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:18:28 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusWiringBeanFactoryPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:18:28 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.Jsr250BeanPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.Jsr250BeanPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:18:28 INFO  DefaultListableBeanFactory:822 - Overriding bean definition for bean 'org.apache.cxf.bus.spring.BusExtensionPostProcessor': replacing [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]] with [Generic bean: class [org.apache.cxf.bus.spring.BusExtensionPostProcessor]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [META-INF/cxf/cxf.xml]]
+2017-08-25 23:18:28 INFO  AutowiredAnnotationBeanPostProcessor:153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-08-25 23:18:29 INFO  CopterRemoteControllerImp:17 - Create new copter
+2017-08-25 23:18:30 INFO  CopterControlServiceImp:21 - Create new copter
+2017-08-25 23:18:31 INFO  ContextLoader:325 - Root WebApplicationContext: initialization completed in 3409 ms
+2017-08-25 23:18:45 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=0}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-15}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-30}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-45}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-60}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=0, distance=-90}
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-60}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-45}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-30}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-15}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=0}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=15}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=30}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=45}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=60}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=90}
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=60, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=75, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:18:46 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=75, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=75, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:18:46 INFO  CopterControlServiceImp:81 - Copter hoveringCopter{height=90, distance=90}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=0}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-15}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-30}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-45}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-60}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-75}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=0, distance=-90}
+2017-08-25 23:18:47 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:18:47 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:18:47 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:18:47 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 23:18:47 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 23:18:48 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:18:48 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:18:48 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:18:48 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:18:48 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=60}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=45}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=30}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=15}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=0}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-15}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-30}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-45}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-60}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=-90}
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:72 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=75, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=60, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=45, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=30, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=15, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=0, distance=-90}
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:46 - It is impossible to rise above 100, current copter height: 0
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=-90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-60}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-45}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-30}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=-15}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=0}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=15}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=30}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=45}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=60}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=0, distance=90}
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:59 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=0, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=15, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=30, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=45, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=60, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=75, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:24:47 ERROR CopterControlServiceImp:33 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:69 - Copter move backCopter{height=90, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:43 - Copter move downCopter{height=75, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=75}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:56 - Copter move forwardCopter{height=75, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=75, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:30 - Copter move upCopter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:90 - Current copter position Copter{height=90, distance=90}
+2017-08-25 23:24:47 INFO  CopterControlServiceImp:81 - Copter hoveringCopter{height=90, distance=90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=60}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=45}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=30}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=15}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=0}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-15}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-30}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-45}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-60}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-75}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=-90}
+2017-08-25 23:24:48 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:24:48 ERROR CopterRemoteControllerImp:57 - It is impossible to distance from the starting point more than 100 meters, current distance -90
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=60, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=45, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=30, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=15, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=0, distance=-90}
+2017-08-25 23:24:48 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:24:48 ERROR CopterRemoteControllerImp:37 - It is impossible drop below 0, current copter height: 0
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=-90}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-75}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-60}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-45}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-30}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=-15}
+2017-08-25 23:24:48 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=0}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=15}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=30}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=45}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=60}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=75}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=0, distance=90}
+2017-08-25 23:24:49 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:24:49 ERROR CopterRemoteControllerImp:47 - It is impossible to distance from the starting point more than 100 meters, current distance 90
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=0, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=15, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=30, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=45, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=60, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=75, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:24:49 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:24:49 ERROR CopterRemoteControllerImp:27 - It is impossible to rise above 100, current copter height: 90
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:54 - Copter move back Copter{height=90, distance=75}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=75}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:34 - Copter move down Copter{height=75, distance=75}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=75}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:44 - Copter move forward Copter{height=75, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=75, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:24 - Copter move up Copter{height=90, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:70 - Current copter position  Copter{height=90, distance=90}
+2017-08-25 23:24:49 INFO  CopterRemoteControllerImp:63 - Copter hovering Copter{height=90, distance=90}

@@ -12,7 +12,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.tomcat.port>8081</maven.tomcat.port>
         <maven.tomcat.port>8080</maven.tomcat.port>
-        <jackson.version>1.8.6</jackson.version>
+        <jackson.version>1.9.13</jackson.version>
     </properties>
 
     <dependencies>
@@ -51,13 +51,6 @@
             <artifactId>jackson-jaxrs</artifactId>
             <version>${jackson.version}</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
-        <dependency>
-            <groupId>org.codehaus.jackson</groupId>
-            <artifactId>jackson-mapper-asl</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-rt-frontend-jaxrs</artifactId>
@@ -89,7 +82,11 @@
                                 <path>/webservice</path>
                                 <fork>true</fork>
                                 <useSeparateTomcatClassLoader>true</useSeparateTomcatClassLoader>
+                                <port>13000</port>
+                                <path>/jaxrs-service</path>
+                                <useSeparateTomcatClassLoader>true</useSeparateTomcatClassLoader>
                             </configuration>
+
                         </execution>
                     </executions>
                 </plugin>
