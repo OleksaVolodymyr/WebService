@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.62" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.015" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
@@ -66,22 +66,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="maxBackDistanceTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.059"/>
-  <testcase name="maxDownRangeTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.023"/>
-  <testcase name="maxForwardDistanceTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.097"/>
-  <testcase name="maxUpRangeTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.066"/>
-  <testcase name="moveBackTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.008"/>
-  <testcase name="moveDownTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.01"/>
-  <testcase name="moveForwardTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.006"/>
-  <testcase name="moveUpTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.007"/>
+  <testcase name="maxBackDistanceTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.119"/>
+  <testcase name="maxDownRangeTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.059"/>
+  <testcase name="maxForwardDistanceTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.084"/>
+  <testcase name="maxUpRangeTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.056"/>
+  <testcase name="moveBackTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.007"/>
+  <testcase name="moveDownTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.006"/>
+  <testcase name="moveForwardTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.012"/>
+  <testcase name="moveUpTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.011"/>
   <testcase name="stopTest" classname="com.epam.lab.restClient.RESTClientTest" time="0.007"/>
-  <testcase name="maxBackDistanceTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.12"/>
-  <testcase name="maxDownRangeTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.041"/>
-  <testcase name="maxForwardDistanceTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.07"/>
-  <testcase name="maxUpRangeTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.049"/>
-  <testcase name="moveBackTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.004"/>
+  <testcase name="maxBackDistanceTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.096"/>
+  <testcase name="maxDownRangeTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.05"/>
+  <testcase name="maxForwardDistanceTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.074"/>
+  <testcase name="maxUpRangeTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.048"/>
+  <testcase name="moveBackTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.008"/>
   <testcase name="moveDownTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.006"/>
-  <testcase name="moveForwardTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.002"/>
-  <testcase name="moveUpTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.006"/>
-  <testcase name="stopTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.015"/>
+  <testcase name="moveForwardTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.007"/>
+  <testcase name="moveUpTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.013"/>
+  <testcase name="stopTest" classname="com.epam.lab.soapClient.SOAPClientTest" time="0.019"/>
 </testsuite>

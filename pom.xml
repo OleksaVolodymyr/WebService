@@ -49,6 +49,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.6.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-codegen-plugin -->
         <dependency>
             <groupId>org.apache.cxf</groupId>

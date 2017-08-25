@@ -25,6 +25,8 @@ public class RESTClientTest {
     @BeforeMethod
     public void beforeTest() {
         res = restClient.getCurrentPosition();
+        System.out.println(res);
+        System.out.println(restClient.getCurrentPosition());
     }
 
     @Test
