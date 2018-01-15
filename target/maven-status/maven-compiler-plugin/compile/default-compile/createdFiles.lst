@@ -1,0 +1,10 @@
+com\epam\lab\factory\ClientSelector.class
+com\epam\lab\model\Copter.class
+com\epam\lab\soapClient\service\ObjectFactory.class
+com\epam\lab\factory\CopterRemoteController.class
+com\epam\lab\restClient\RESTClient.class
+com\epam\lab\webmodel\Response.class
+com\epam\lab\factory\ClientType.class
+com\epam\lab\factory\ClientSelector$1.class
+com\epam\lab\soapClient\service\CopterRemoteControllerImpService.class
+com\epam\lab\soapClient\service\package-info.class

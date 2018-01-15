@@ -1,0 +1,4 @@
+com\epam\lab\listener\CustomTestListener.class
+com\epam\lab\soapClient\SOAPClientTest.class
+com\epam\lab\appender\TestNGReportAppender.class
+com\epam\lab\restClient\RESTClientTest.class

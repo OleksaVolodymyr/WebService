@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="0" failed="9" skipped="9">
+  <reporter-output>
+    <line>
+      <![CDATA[<p>[13:56:29 INFO] Starting tests : RestClientTest, Output directory : D:\WorkSpace\VolodymyrOleksaClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@4e096385, Started in 2017-11-14 13:56:29  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:31 INFO] Test : maxBackDistanceTest , Method : RESTClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:31  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:32 ERROR] Test : maxBackDistanceTest , Method : RESTClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:32  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:33 INFO] Test : maxDownRangeTest , Method : RESTClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:33  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:34 ERROR] Test : maxDownRangeTest , Method : RESTClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:34  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:35 INFO] Test : maxForwardDistanceTest , Method : RESTClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:35  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:36 ERROR] Test : maxForwardDistanceTest , Method : RESTClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:36  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:37 INFO] Test : maxUpRangeTest , Method : RESTClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:37  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:38 ERROR] Test : maxUpRangeTest , Method : RESTClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:38  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:39 INFO] Test : moveBackTest , Method : RESTClientTest.moveBackTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:39  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:40 ERROR] Test : moveBackTest , Method : RESTClientTest.moveBackTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:40  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:41 INFO] Test : moveDownTest , Method : RESTClientTest.moveDownTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:41  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:42 ERROR] Test : moveDownTest , Method : RESTClientTest.moveDownTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:42  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:43 INFO] Test : moveForwardTest , Method : RESTClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:43  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:44 ERROR] Test : moveForwardTest , Method : RESTClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:44  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:45 INFO] Test : moveUpTest , Method : RESTClientTest.moveUpTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:45  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:46 ERROR] Test : moveUpTest , Method : RESTClientTest.moveUpTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:46  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:47 INFO] Test : stopTest , Method : RESTClientTest.stopTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:47  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 ERROR] Test : stopTest , Method : RESTClientTest.stopTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:48  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 INFO] Finish tests : RestClientTest, Output directory : D:\WorkSpace\VolodymyrOleksaClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@4e096385, Finished in 2017-11-14 13:56:48  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 INFO] Starting tests : SOAPClientTest, Output directory : D:\WorkSpace\VolodymyrOleksaClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@4e096385, Started in 2017-11-14 13:56:48  
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : maxBackDistanceTest , Method : SOAPClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : maxDownRangeTest , Method : SOAPClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : maxForwardDistanceTest , Method : SOAPClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : maxUpRangeTest , Method : SOAPClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : moveBackTest , Method : SOAPClientTest.moveBackTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : moveDownTest , Method : SOAPClientTest.moveDownTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : moveForwardTest , Method : SOAPClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : moveUpTest , Method : SOAPClientTest.moveUpTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 WARN] Test : stopTest , Method : SOAPClientTest.stopTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>[13:56:48 INFO] Finish tests : SOAPClientTest, Output directory : D:\WorkSpace\VolodymyrOleksaClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@4e096385, Finished in 2017-11-14 13:56:48  
+</p>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2017-11-14T11:56:29Z" name="Suite" finished-at="2017-11-14T11:56:48Z" duration-ms="18577">
+    <groups>
+    </groups>
+    <test started-at="2017-11-14T11:56:29Z" name="RestClientTest" finished-at="2017-11-14T11:56:48Z" duration-ms="18519">
+      <class name="com.epam.lab.restClient.RESTClientTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:29Z" name="setUp" finished-at="2017-11-14T13:56:29Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:29Z" name="beforeTest" finished-at="2017-11-14T13:56:31Z" duration-ms="1187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="maxBackDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:31Z" name="maxBackDistanceTest" finished-at="2017-11-14T13:56:32Z" duration-ms="1019" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.lab.restClient.RESTClientTest.maxBackDistanceTest(RESTClientTest.java:114)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:31 INFO] Test : maxBackDistanceTest , Method : RESTClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:31  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:32 ERROR] Test : maxBackDistanceTest , Method : RESTClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:32  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxBackDistanceTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:32Z" name="beforeTest" finished-at="2017-11-14T13:56:33Z" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="maxDownRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:33Z" name="maxDownRangeTest" finished-at="2017-11-14T13:56:34Z" duration-ms="1030" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.lab.restClient.RESTClientTest.maxDownRangeTest(RESTClientTest.java:90)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:33 INFO] Test : maxDownRangeTest , Method : RESTClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:33  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:34 ERROR] Test : maxDownRangeTest , Method : RESTClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:34  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxDownRangeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:34Z" name="beforeTest" finished-at="2017-11-14T13:56:35Z" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="maxForwardDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:35Z" name="maxForwardDistanceTest" finished-at="2017-11-14T13:56:36Z" duration-ms="1026" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.lab.restClient.RESTClientTest.maxForwardDistanceTest(RESTClientTest.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:35 INFO] Test : maxForwardDistanceTest , Method : RESTClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:35  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:36 ERROR] Test : maxForwardDistanceTest , Method : RESTClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:36  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxForwardDistanceTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:36Z" name="beforeTest" finished-at="2017-11-14T13:56:37Z" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="maxUpRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:37Z" name="maxUpRangeTest" finished-at="2017-11-14T13:56:38Z" duration-ms="1011" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.epam.lab.restClient.RESTClientTest.maxUpRangeTest(RESTClientTest.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:37 INFO] Test : maxUpRangeTest , Method : RESTClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:37  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:38 ERROR] Test : maxUpRangeTest , Method : RESTClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:38  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxUpRangeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:38Z" name="beforeTest" finished-at="2017-11-14T13:56:39Z" duration-ms="1012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="moveBackTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:39Z" name="moveBackTest" finished-at="2017-11-14T13:56:40Z" duration-ms="1009" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotNull(Assert.java:422)
+	at org.testng.Assert.assertNotNull(Assert.java:407)
+	at com.epam.lab.restClient.RESTClientTest.moveBackTest(RESTClientTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:39 INFO] Test : moveBackTest , Method : RESTClientTest.moveBackTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:39  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:40 ERROR] Test : moveBackTest , Method : RESTClientTest.moveBackTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:40  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveBackTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:40Z" name="beforeTest" finished-at="2017-11-14T13:56:41Z" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="moveDownTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:41Z" name="moveDownTest" finished-at="2017-11-14T13:56:42Z" duration-ms="1008" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotNull(Assert.java:422)
+	at org.testng.Assert.assertNotNull(Assert.java:407)
+	at com.epam.lab.restClient.RESTClientTest.moveDownTest(RESTClientTest.java:60)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:41 INFO] Test : moveDownTest , Method : RESTClientTest.moveDownTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:41  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:42 ERROR] Test : moveDownTest , Method : RESTClientTest.moveDownTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:42  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveDownTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:42Z" name="beforeTest" finished-at="2017-11-14T13:56:43Z" duration-ms="1023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="moveForwardTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:43Z" name="moveForwardTest" finished-at="2017-11-14T13:56:44Z" duration-ms="1011" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotNull(Assert.java:422)
+	at org.testng.Assert.assertNotNull(Assert.java:407)
+	at com.epam.lab.restClient.RESTClientTest.moveForwardTest(RESTClientTest.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:43 INFO] Test : moveForwardTest , Method : RESTClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:43  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:44 ERROR] Test : moveForwardTest , Method : RESTClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:44  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveForwardTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:44Z" name="beforeTest" finished-at="2017-11-14T13:56:45Z" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="moveUpTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:45Z" name="moveUpTest" finished-at="2017-11-14T13:56:46Z" duration-ms="1012" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotNull(Assert.java:422)
+	at org.testng.Assert.assertNotNull(Assert.java:407)
+	at com.epam.lab.restClient.RESTClientTest.moveUpTest(RESTClientTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:45 INFO] Test : moveUpTest , Method : RESTClientTest.moveUpTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:45  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:46 ERROR] Test : moveUpTest , Method : RESTClientTest.moveUpTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:46  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveUpTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:46Z" name="beforeTest" finished-at="2017-11-14T13:56:47Z" duration-ms="1006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="stopTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589]" started-at="2017-11-14T13:56:47Z" name="stopTest" finished-at="2017-11-14T13:56:48Z" duration-ms="1006" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected object to not be null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.assertNotNull(Assert.java:422)
+	at org.testng.Assert.assertNotNull(Assert.java:407)
+	at com.epam.lab.restClient.RESTClientTest.stopTest(RESTClientTest.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:47 INFO] Test : stopTest , Method : RESTClientTest.stopTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589], Started in : 2017-11-14 13:56:47  
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:48 ERROR] Test : stopTest , Method : RESTClientTest.stopTest()[pri:0, instance:com.epam.lab.restClient.RESTClientTest@62379589] failed in : 2017-11-14 13:56:48  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+      </class> <!-- com.epam.lab.restClient.RESTClientTest -->
+    </test> <!-- RestClientTest -->
+    <test started-at="2017-11-14T11:56:48Z" name="SOAPClientTest" finished-at="2017-11-14T11:56:48Z" duration-ms="4">
+      <class name="com.epam.lab.soapClient.SOAPClientTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="setUp" finished-at="2017-11-14T13:56:48Z" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="maxBackDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="maxBackDistanceTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : maxBackDistanceTest , Method : SOAPClientTest.maxBackDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxBackDistanceTest -->
+        <test-method signature="maxUpRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="maxUpRangeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : maxUpRangeTest , Method : SOAPClientTest.maxUpRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxUpRangeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="moveForwardTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="moveForwardTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : moveForwardTest , Method : SOAPClientTest.moveForwardTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveForwardTest -->
+        <test-method signature="moveUpTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="moveUpTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : moveUpTest , Method : SOAPClientTest.moveUpTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveUpTest -->
+        <test-method signature="moveDownTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="moveDownTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : moveDownTest , Method : SOAPClientTest.moveDownTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveDownTest -->
+        <test-method signature="maxForwardDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="maxForwardDistanceTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : maxForwardDistanceTest , Method : SOAPClientTest.maxForwardDistanceTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxForwardDistanceTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="stopTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="stopTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : stopTest , Method : SOAPClientTest.stopTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>[13:56:48 INFO] Finish tests : SOAPClientTest, Output directory : D:\WorkSpace\VolodymyrOleksaClient\target\surefire-reports\Suite, Test Suite : org.testng.SuiteRunner@4e096385, Finished in 2017-11-14 13:56:48  
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- stopTest -->
+        <test-method signature="moveBackTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="moveBackTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : moveBackTest , Method : SOAPClientTest.moveBackTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- moveBackTest -->
+        <test-method signature="maxDownRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="maxDownRangeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[javax/xml/ws/Service]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: javax/xml/ws/Service
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1007)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at com.epam.lab.factory.ClientSelector.getClient(ClientSelector.java:15)
+	at com.epam.lab.soapClient.SOAPClientTest.setUp(SOAPClientTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.ClassNotFoundException: javax.xml.ws.Service
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:582)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	... 39 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>[13:56:48 WARN] Test : maxDownRangeTest , Method : SOAPClientTest.maxDownRangeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e] was skipped 
+</p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- maxDownRangeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.epam.lab.soapClient.SOAPClientTest@1ba9117e]" started-at="2017-11-14T13:56:48Z" name="beforeTest" finished-at="2017-11-14T13:56:48Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- com.epam.lab.soapClient.SOAPClientTest -->
+    </test> <!-- SOAPClientTest -->
+  </suite> <!-- Suite -->
+</testng-results>
